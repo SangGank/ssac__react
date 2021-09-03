@@ -17,18 +17,20 @@ function App() {
     <div className="App">
       <sesction calssNmae="App-header">
         Hello World!!!
-       <Hello />
-       <Hello2 />
-       <Props number="10" />
-       <Props2 number="1000" value="props value" />
-       <Props3 number = "12345" value="구조분해할당"/>
-       {<Section>
-         <div>Section Children</div>
-          <Hello2 />
-       </Section> }
-       <Condition />
-       <Condition2 />
-       <Condition3 />
+        <Hello />
+        <Hello2 />
+        <Props number="10" />
+        <Props2 number="1000" value="props value" />
+        <Props3 number="12345" value="구조분해할당" />
+        {
+          <Section>
+            <div>Section Children</div>
+            <Hello2 />
+          </Section>
+        }
+        <Condition />
+        <Condition2 />
+        <Condition3 />
       </sesction>
     </div>
   );
